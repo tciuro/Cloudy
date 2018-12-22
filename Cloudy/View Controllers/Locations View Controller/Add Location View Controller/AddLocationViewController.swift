@@ -14,7 +14,7 @@ protocol AddLocationViewControllerDelegate: class {
     func controller(_ controller: AddLocationViewController, didAddLocation location: Location)
 }
 
-class AddLocationViewController: UIViewController {
+class AddLocationViewController: UIViewController, UISearchBarDelegate {
 
     // MARK: - Properties
 
